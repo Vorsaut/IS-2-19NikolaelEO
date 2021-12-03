@@ -81,6 +81,12 @@
     <Compile Include="Задание3.Designer.cs">
       <DependentUpon>Задание3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Задание4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Задание4.Designer.cs">
+      <DependentUpon>Задание4.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Задание1.resx">
       <DependentUpon>Задание1.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +108,9 @@
     <EmbeddedResource Include="Задание3.resx">
       <DependentUpon>Задание3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Задание4.resx">
+      <DependentUpon>Задание4.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -114,6 +123,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyLib\MyLib.csproj">
+      <Project>{e8c7ab28-6fc3-41da-b026-5931eb1305b1}</Project>
+      <Name>MyLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
