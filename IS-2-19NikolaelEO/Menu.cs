@@ -19,14 +19,20 @@ namespace IS_2_19NikolaelEO
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 Form1 = new Form1();
+            Задание1 Form1 = new Задание1();
             Form1.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 Form2 = new Form2();
+            Задание2 Form2 = new Задание2();
             Form2.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Задание3 Form3 = new Задание3();
+            Form3.ShowDialog();
         }
     }
 }

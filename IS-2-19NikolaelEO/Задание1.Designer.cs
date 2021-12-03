@@ -1,7 +1,7 @@
 ﻿
 namespace IS_2_19NikolaelEO
 {
-    partial class Form1
+    partial class Задание1
     {
         /// <summary>
         /// Required designer variable.

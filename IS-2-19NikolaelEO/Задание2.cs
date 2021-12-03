@@ -11,7 +11,7 @@ using MySql.Data.MySqlClient;
 
 namespace IS_2_19NikolaelEO
 {
-    public partial class Form2 : Form
+    public partial class Задание2 : Form
     {
         static class Pon
         {
@@ -26,7 +26,7 @@ namespace IS_2_19NikolaelEO
                 return connString;
             }
         }
-        public Form2()
+        public Задание2()
         {
             InitializeComponent();
         }

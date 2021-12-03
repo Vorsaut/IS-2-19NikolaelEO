@@ -18,5 +18,13 @@ namespace IS_2_19NikolaelEO
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Menu());
         }
+        public class Pon
+        {
+            public string Connstring = "server=caseum.ru;port=33333;user=test_user;database=db_test;password=test_pass;";
+            public string GetPon()
+            {
+                return Connstring;
+            }
+        }
     }
 }
