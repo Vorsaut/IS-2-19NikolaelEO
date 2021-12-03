@@ -40,5 +40,11 @@ namespace IS_2_19NikolaelEO
             Задание4 Form4 = new Задание4();
             Form4.ShowDialog();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Задание5 Form5 = new Задание5();
+            Form5.ShowDialog();
+        }
     }
 }
